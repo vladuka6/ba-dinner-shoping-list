@@ -1,0 +1,99 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+}
+img{
+    max-width: 100%;
+}
+.ba-header .container{
+display: flex;
+align-items: center;
+}
+
+.ba-logo{
+    display: inline-block;
+    width: 150px;
+    }
+.ba-nav{
+        display: inline-block;
+        border:1px solid green;
+        width: calc(100% - 155px);
+        text-align: right;
+    }
+.ba-menu{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    
+    }
+    .ba-menu-item{
+        display: inline-block;
+    }
+    .container{
+        max-width: 1100px;
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+            }
+.ba-hero{
+    background-color: aquamarine;
+    padding: 100px 0;
+    text-align: center;
+    font-family:sans-serif;
+            }
+.ba-btn{
+    display: inline-block;
+    max-width: 200px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 32px;
+    background-color: tomato;
+    color:#fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 20px;
+    }
+    .ba-btn:hover,
+    .ba-btn:focus{
+        color:tomato;
+        background-color: beige;
+    }
+    .ba-btn:active{
+        color:#c36c6c;
+    }
+    .ba-title{
+        text-align: center;
+    }
+.ba-courses{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+.ba-course{
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 33.333%;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+transition: filter .3s;
+}
+.ba-course_title{
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+}
+.ba-course-space{
+border: 1px solid #cdcdcd;
+border-radius: 10px;
+padding-bottom: 15px;
+ }
+ .ba-courses:hover .ba-course{
+     filter: blur(2px);
+ }
+ .ba-courses:hover .ba-course{
+     filter:none}
